@@ -1,7 +1,7 @@
 This project demos a breaking change from `umi 1.3.18` to `umi 2.0.0-beta.16`, see https://github.com/umijs/umi/issues/881
 
 Module resolution for `graphql` **works** in version 1.3.18 and **fails** in 2.0.0-beta.16:
-```Shell
+```JavaScript
 index.js:2178 ReferenceError: module is not defined
     at Module../node_modules/graphql/language/printer.mjs (printer.mjs:1)
     at __webpack_require__ (bootstrap:724)
