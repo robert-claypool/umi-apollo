@@ -1,4 +1,4 @@
-This project demos a breaking change from `umi 1.3.18` to `umi 2.0.0-beta.16`.
+This project demos a breaking change from `umi 1.3.18` to `umi 2.0.0-beta.16`, see https://github.com/umijs/umi/issues/881
 
 Module resolution for `graphql` **works** in version 1.3.18 and **fails** in 2.0.0-beta.16:
 ```Shell
